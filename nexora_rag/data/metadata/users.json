@@ -1,0 +1,78 @@
+[
+  {
+    "user_id": "U001",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@nexora.example",
+    "department": "Engineering",
+    "job_title": "Engineer (L2)",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "user_id": "U002",
+    "name": "Priya Nair",
+    "email": "priya.nair@nexora.example",
+    "department": "HR",
+    "job_title": "HR Business Partner (L4)",
+    "roles": [
+      "employee",
+      "hr"
+    ]
+  },
+  {
+    "user_id": "U003",
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta@nexora.example",
+    "department": "Engineering",
+    "job_title": "Engineering Manager (L5)",
+    "roles": [
+      "employee",
+      "manager"
+    ]
+  },
+  {
+    "user_id": "U004",
+    "name": "Sneha Kulkarni",
+    "email": "sneha.kulkarni@nexora.example",
+    "department": "Finance",
+    "job_title": "Finance Controller (L5)",
+    "roles": [
+      "employee",
+      "finance"
+    ]
+  },
+  {
+    "user_id": "U005",
+    "name": "Vikram Singh",
+    "email": "vikram.singh@nexora.example",
+    "department": "Security",
+    "job_title": "Security Analyst (L3)",
+    "roles": [
+      "employee",
+      "security"
+    ]
+  },
+  {
+    "user_id": "U006",
+    "name": "Ananya Rao",
+    "email": "ananya.rao@nexora.example",
+    "department": "Sales",
+    "job_title": "Sales Executive (L2)",
+    "roles": [
+      "employee",
+      "sales"
+    ]
+  },
+  {
+    "user_id": "U007",
+    "name": "Karan Malhotra",
+    "email": "karan.malhotra@nexora.example",
+    "department": "IT",
+    "job_title": "IT Administrator (L4)",
+    "roles": [
+      "employee",
+      "admin"
+    ]
+  }
+]

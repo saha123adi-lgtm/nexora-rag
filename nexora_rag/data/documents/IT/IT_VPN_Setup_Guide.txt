@@ -1,0 +1,43 @@
+NEXORA TECHNOLOGIES PVT. LTD.
+VPN SETUP GUIDE
+================================================================================
+Document ID: IT-003
+Department: IT
+Version: 3.0
+Effective Date: 2026-05-05
+Owner: Network Engineering
+Classification: Internal - All Employees
+
+1. OVERVIEW
+-----------
+Nexora uses the GlobalConnect VPN client. The VPN is required whenever you work outside
+a Nexora office, including from home.
+
+2. INSTALLATION STEPS
+---------------------
+  * Open the Software Portal (software.nexora.example) and search for GlobalConnect.
+  * Click Install. The minimum supported client version is 5.2.
+  * Open GlobalConnect and enter the server address vpn.nexora.example.
+  * Sign in with your SSO credentials, then approve the MFA prompt in the NexAuth
+    app.
+  * Wait for the status to show Connected.
+
+3. USAGE RULES
+--------------
+  * Split tunnelling is disabled. All traffic goes through the company network while
+    connected.
+  * A session disconnects automatically after 8 hours of inactivity.
+  * A single account can be connected from at most 2 devices at the same time.
+
+4. TROUBLESHOOTING
+------------------
+Error | Meaning                             | Fix                                                                                      
+------+-------------------------------------+------------------------------------------------------------------------------------------
+806   | Port 443 is blocked by your network | Try a different network, such as a mobile hotspot, or ask your ISP to allow TCP port 443.
+691   | Credentials rejected                | Reset your password at pwreset.nexora.example and sign in again.                         
+720   | Outdated client                     | Update GlobalConnect from the Software Portal to version 5.2 or later.                   
+
+If none of these fixes work, raise a P2 ticket with the helpdesk and attach a screenshot
+of the error.
+
+-- End of IT-003 --

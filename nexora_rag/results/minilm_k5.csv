@@ -1,0 +1,90 @@
+qid,category,role,question,top1_score,evidence_rank,doc_hit,leak,retrieved_docs
+Q001,factual,employee,How many days of annual leave do I get each year?,0.6909033060073853,3,True,True,HR-001;HR-001;HR-001;HR-001;HR-004
+Q002,factual,employee,How many sick leave days are there per year?,0.5719066262245178,3,True,True,HR-001;HR-001;HR-001;HR-001;HR-008
+Q003,factual,employee,Do I need a medical certificate for sick leave?,0.3593631982803345,1,True,True,HR-001;HR-001;HR-001;HR-001;HR-008
+Q004,factual,employee,How many unused annual leave days can I carry forward?,0.7328084111213684,1,True,True,HR-001;HR-001;HR-001;HR-001;HR-004
+Q005,factual,employee,How long is maternity leave?,0.7168710827827454,1,True,True,HR-001;HR-001;HR-001;HR-004;HR-001
+Q006,factual,employee,What is the paternity leave entitlement?,0.5305442214012146,1,True,True,HR-001;HR-001;HR-001;HR-008;HR-001
+Q007,factual,employee,How much notice do I need to give for leave longer than 2 days?,0.5566163659095764,3,True,True,HR-001;HR-001;HR-001;HR-004;HR-001
+Q008,paraphrase,employee,How many paid holidays are there in a year?,0.5151926875114441,1,True,True,HR-001;HR-001;FIN-001;HR-008;HR-008
+Q009,paraphrase,employee,How many days of leave can I cash out when I resign?,0.5633583068847656,1,True,True,HR-001;HR-001;HR-004;HR-001;HR-001
+Q010,multi_hop,employee,I have 14 unused annual leave days on 31 March. How many carry over?,0.6455036997795105,1,True,True,HR-001;HR-001;HR-001;HR-004;SEC-003
+Q011,factual,employee,Which days am I expected in the office?,0.3853520154953003,3,True,True,HR-004;HR-001;HR-003;HR-001;FIN-002
+Q012,factual,employee,What is the monthly work-from-home allowance?,0.562957763671875,1,True,True,HR-003;HR-008;HR-001;FIN-001;HR-008
+Q013,factual,employee,How much internet reimbursement can I claim?,0.489277184009552,4,True,True,FIN-001;FIN-001;FIN-001;HR-003;HR-008
+Q014,factual,employee,How many work-from-anywhere days are allowed in India?,0.6725782752037048,1,True,True,HR-003;HR-008;HR-001;HR-001;HR-003
+Q015,factual,employee,What are the core working hours?,0.4483814239501953,1,True,True,HR-003;HR-004;HR-004;HR-001;HR-001
+Q016,multi_hop,employee,I am an L4 working from home. What monthly payments can I get for working from home?,0.41226494312286377,1,True,True,HR-003;FIN-001;HR-008;HR-008;HR-003
+Q017,factual,employee,How often are performance reviews held?,0.620538592338562,1,True,True,HR-005;HR-005;HR-005;IT-004;HR-004
+Q018,factual,employee,What bonus payout does a rating of 4 get?,0.5785629153251648,1,True,True,HR-005;HR-005;HR-005;HR-008;HR-004
+Q019,factual,employee,What do I need to be eligible for promotion?,0.4731931686401367,2,True,True,HR-004;HR-005;HR-002;HR-004;HR-004
+Q020,factual,employee,How long does a Performance Improvement Plan last?,0.5879532694816589,1,True,True,HR-005;HR-005;HR-005;HR-004;IT-004
+Q021,factual,employee,What is the health insurance cover for employees?,0.6564251780509949,1,True,True,HR-008;HR-008;FIN-002;HR-003;HR-003
+Q022,factual,employee,What is my annual learning budget?,0.4246653914451599,1,True,True,HR-008;FIN-001;HR-004;HR-001;HR-008
+Q023,factual,employee,How much can I claim for a gym membership?,0.4363076686859131,1,True,True,HR-008;FIN-001;FIN-001;HR-008;HR-003
+Q024,factual,employee,What referral bonus do I get for referring an L4 hire?,0.46212655305862427,2,True,True,HR-005;HR-008;HR-004;HR-002;HR-004
+Q025,paraphrase,employee,What mental health support does Nexora offer?,0.5059707760810852,1,True,True,HR-008;HR-008;PRD-001;PRD-002;HR-008
+Q026,factual,employee,What is my notice period after confirmation?,0.48503732681274414,1,True,True,HR-004;HR-004;IT-004;HR-001;HR-001
+Q027,multi_hop,employee,I joined last week. Which courses must I finish and by when?,0.4932745695114136,1,True,True,HR-004;FIN-002;HR-004;HR-004;SEC-001
+Q028,factual,employee,Where do I send a sexual harassment complaint?,0.48329728841781616,1,True,True,HR-002;HR-002;HR-002;HR-002;HR-004
+Q029,factual,employee,What is the ethics hotline number?,0.5870115756988525,1,True,True,HR-002;HR-002;HR-002;HR-002;IT-004
+Q030,factual,employee,Above what value must I declare a gift?,0.5447140336036682,1,True,True,HR-002;FIN-001;HR-008;HR-004;FIN-001
+Q031,factual,employee,How do I contact the IT helpdesk?,0.6968066096305847,1,True,True,IT-001;IT-001;HR-004;IT-001;IT-001
+Q032,factual,employee,How do I reset my password?,0.5266504883766174,1,True,True,IT-001;SEC-001;IT-002;IT-001;IT-001
+Q033,factual,employee,After how many wrong attempts is my account locked?,0.5093499422073364,1,True,True,IT-001;SEC-001;IT-002;SEC-001;IT-004
+Q034,paraphrase,employee,What do I do if my account gets locked?,0.49835604429244995,1,True,True,IT-001;SEC-001;IT-002;HR-002;SEC-003
+Q035,factual,employee,What are the response and resolution times for a P1 IT issue?,0.46817314624786377,1,True,True,IT-001;HR-004;IT-004;IT-002;IT-001
+Q036,factual,employee,How often are laptops replaced?,0.6895781755447388,1,True,True,IT-002;IT-002;IT-002;IT-001;HR-001
+Q037,multi_hop,employee,My laptop was stolen. What should I do?,0.4914677143096924,1,True,True,IT-002;IT-002;IT-001;IT-002;IT-002
+Q038,paraphrase,employee,Can I plug a USB pen drive into my laptop?,0.28374969959259033,2,True,True,IT-002;IT-002;IT-002;IT-002;IT-001
+Q039,factual,employee,Which VPN client and server do I use?,0.44008123874664307,1,True,True,IT-003;IT-003;IT-003;HR-003;IT-001
+Q040,factual,employee,What does VPN error 806 mean?,0.5774275064468384,1,True,True,IT-003;IT-001;IT-004;IT-003;IT-003
+Q041,multi_hop,employee,How do I get software that is not in the approved catalog?,0.6752197742462158,2,True,True,IT-004;IT-004;IT-004;IT-004;PRD-002
+Q042,factual,employee,When does software need Finance approval?,0.6431288123130798,1,True,True,IT-004;IT-004;IT-004;IT-004;FIN-001
+Q043,factual,employee,What are the password requirements?,0.6122745871543884,1,True,True,SEC-001;IT-001;IT-001;SEC-001;IT-004
+Q044,multi_hop,employee,Can I use ChatGPT to summarise a customer contract?,0.22980499267578125,2,True,True,PRD-001;SEC-001;HR-003;FIN-001;HR-003
+Q045,factual,employee,How do I report a phishing email?,0.5896362662315369,1,True,True,SEC-001;HR-002;HR-002;IT-001;HR-002
+Q046,factual,employee,What encryption standards are required?,0.5291672945022583,1,True,True,SEC-001;SEC-001;SEC-001;IT-004;IT-002
+Q047,factual,employee,How long do we have to fulfil a customer data deletion request?,0.536297082901001,2,True,True,SEC-003;SEC-003;IT-002;SEC-003;IT-004
+Q048,factual,employee,How long are financial records kept?,0.5119622945785522,1,True,True,SEC-003;SEC-003;FIN-001;HR-001;IT-002
+Q049,factual,employee,Who is the Data Protection Officer?,0.47708404064178467,2,True,True,SEC-001;SEC-003;SEC-003;SEC-001;SEC-001
+Q050,factual,employee,How long is CCTV footage retained?,0.39074617624282837,1,True,True,SEC-003;IT-002;HR-003;SEC-003;HR-004
+Q051,factual,employee,What is the deadline for submitting an expense claim?,0.5489057302474976,1,True,True,FIN-001;IT-004;FIN-001;IT-001;FIN-001
+Q052,paraphrase,employee,Do I need a receipt for every expense?,0.3858101963996887,2,True,True,FIN-001;FIN-001;FIN-001;HR-002;IT-002
+Q053,factual,employee,"Who approves an expense claim of Rs. 30,000?",0.5938009023666382,1,True,True,FIN-001;FIN-001;FIN-001;HR-003;HR-008
+Q054,factual,employee,What is the daily meal limit on domestic travel to a tier-1 city?,0.510601282119751,2,True,True,FIN-002;FIN-001;HR-008;FIN-002;HR-001
+Q055,factual,employee,When can I claim cab fare for office travel?,0.6625589728355408,1,True,True,FIN-001;FIN-002;FIN-001;FIN-002;FIN-002
+Q056,paraphrase,employee,What happens if I submit a claim after 40 days?,0.43223297595977783,1,True,True,FIN-001;HR-004;IT-002;HR-001;SEC-003
+Q057,factual,employee,Who can fly business class?,0.5632151961326599,1,True,True,FIN-002;FIN-002;FIN-002;FIN-001;FIN-001
+Q058,multi_hop,employee,I am an L3 employee travelling to Pune. What is my hotel limit per night?,0.7863144874572754,1,True,True,FIN-002;FIN-001;HR-003;HR-008;FIN-002
+Q059,factual,employee,How early should I book domestic travel?,0.489754855632782,1,True,True,FIN-002;FIN-002;HR-004;FIN-002;HR-004
+Q060,factual,employee,What is the reimbursement rate for using my own car?,0.4767446517944336,2,True,True,FIN-001;FIN-002;FIN-001;HR-008;HR-003
+Q061,factual,employee,What is the API rate limit on the NexSupport Professional plan?,0.6926068067550659,1,True,True,PRD-001;PRD-001;PRD-002;HR-003;PRD-001
+Q062,factual,employee,What uptime SLA does NexSupport Enterprise have?,0.6514263153076172,1,True,True,PRD-001;PRD-001;PRD-001;PRD-001;PRD-001
+Q063,multi_hop,employee,A customer on NexSupport Starter wants SSO. What should I tell them?,0.5362463593482971,1,True,True,PRD-001;PRD-001;PRD-001;PRD-001;HR-004
+Q064,factual,employee,How many times are failed webhooks retried?,0.4442847967147827,3,True,True,IT-002;IT-001;PRD-001;IT-001;IT-001
+Q065,factual,employee,Where can NexSupport customer data be stored?,0.7287479639053345,1,True,True,PRD-001;PRD-001;SEC-003;PRD-002;PRD-001
+Q066,factual,employee,How often does NexAnalytics refresh data on the Professional plan?,0.6688100695610046,1,True,True,PRD-002;PRD-002;PRD-002;PRD-001;SEC-003
+Q067,factual,employee,Which databases can NexAnalytics connect to?,0.730476438999176,1,True,True,PRD-002;PRD-002;PRD-002;PRD-002;PRD-001
+Q068,factual,employee,Which forecasting models does NexAnalytics support?,0.5295594930648804,1,True,True,PRD-002;PRD-002;PRD-002;PRD-002;PRD-001
+Q069,access_denied,employee,What is the annual CTC band for level L5?,0.23844635486602783,0,False,False,FIN-002;HR-005;PRD-001;HR-005;FIN-001
+Q070,access_allowed,hr,What is the annual CTC band for level L5?,0.5859528183937073,1,True,True,HR-006;HR-006;HR-006;FIN-002;HR-005
+Q071,access_denied,manager,What is the CTC band for level L4?,0.16274988651275635,0,False,False,IT-004;PRD-001;FIN-002;HR-003;HR-005
+Q072,access_denied,employee,How does ESOP vesting work?,0.16312134265899658,0,False,False,SEC-001;HR-008;HR-008;HR-005;HR-004
+Q073,access_allowed,hr,How does ESOP vesting work?,0.4997905492782593,1,True,True,HR-006;HR-006;SEC-001;HR-008;HR-008
+Q074,access_denied,employee,What are the stages of disciplinary action?,0.4047897458076477,0,False,False,HR-005;HR-002;HR-002;HR-005;HR-004
+Q075,access_allowed,manager,What are the stages of disciplinary action?,0.6815056204795837,1,True,True,HR-007;HR-007;HR-007;HR-005;HR-002
+Q076,access_denied,employee,Above what purchase value is CFO approval needed?,0.5061378479003906,0,False,False,FIN-001;IT-004;FIN-001;IT-004;HR-004
+Q077,access_allowed,finance,Above what purchase value is CFO approval needed?,0.6341778039932251,1,True,True,FIN-003;FIN-001;IT-004;FIN-003;FIN-003
+Q078,access_denied,employee,How much discount can a sales representative give on their own?,0.3082345724105835,0,False,False,FIN-001;HR-008;HR-002;HR-008;IT-004
+Q079,access_allowed,sales,How much discount can a sales representative give on their own?,0.5144503116607666,1,True,True,SAL-001;SAL-001;SAL-001;FIN-001;HR-008
+Q080,access_allowed,sales,Who must approve a 35% discount?,0.5525332689285278,1,True,True,SAL-001;SAL-001;FIN-001;SAL-001;IT-004
+Q081,access_denied,employee,Within how many hours must CERT-In be notified of a cyber incident?,0.4152529239654541,0,False,False,SEC-001;IT-001;IT-004;HR-004;IT-002
+Q082,access_allowed,security,Within how many hours must CERT-In be notified of a cyber incident?,0.565412163734436,1,True,True,SEC-002;SEC-002;SEC-001;IT-001;IT-004
+Q083,unanswerable,employee,What is Nexora's current share price?,0.44344836473464966,0,False,False,PRD-001;PRD-001;PRD-001;PRD-002;HR-008
+Q084,unanswerable,employee,How many days of sabbatical leave can I take?,0.541746973991394,0,False,False,HR-001;HR-001;HR-001;HR-001;HR-004
+Q085,unanswerable,employee,What is the dress code at the office?,0.3978816866874695,0,False,False,HR-002;HR-002;HR-002;HR-002;HR-003
+Q086,unanswerable,employee,Who won the last cricket world cup?,0.17180442810058594,0,False,False,HR-003;HR-008;HR-003;IT-002;IT-004
+Q087,unanswerable,hr,What is the CEO's annual salary?,0.3520498275756836,0,False,False,HR-008;HR-006;FIN-001;HR-008;HR-008
+Q088,unanswerable,employee,Can I bring my dog to the office?,0.23864144086837769,0,False,False,HR-003;HR-002;FIN-001;HR-003;HR-001
+Q089,unanswerable,employee,Does Nexora offer a four-day work week?,0.6406316757202148,0,False,False,HR-003;HR-001;HR-008;HR-008;HR-001

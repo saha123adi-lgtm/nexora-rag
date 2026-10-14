@@ -1,0 +1,59 @@
+NEXORA TECHNOLOGIES PVT. LTD.
+NEW EMPLOYEE ONBOARDING GUIDE
+================================================================================
+Document ID: HR-004
+Department: HR
+Version: 1.8
+Effective Date: 2026-03-10
+Owner: HR Operations
+Classification: Internal - All Employees
+
+1. BEFORE YOUR FIRST DAY
+------------------------
+Please bring the following documents on your joining day:
+
+  * Government photo ID proof and address proof
+  * Educational certificates (originals and copies)
+  * Relieving letter and last 3 payslips from your previous employer
+  * 4 passport-size photographs
+  * Bank account details for salary credit
+
+2. DAY ONE
+----------
+Report to the reception at your office location at 9:30 AM. HR will issue your ID card,
+laptop and NexHR login. You will be assigned an onboarding buddy who will help you for
+your first 90 days.
+
+Days 1 to 5 are orientation: company overview, tools setup, team introductions and an IT
+walk-through.
+
+3. MANDATORY TRAINING
+---------------------
+All new joiners must complete these three courses on the NexLearn portal within 30 days
+of joining:
+
+  * Security Awareness training
+  * POSH Awareness training
+  * Code of Conduct training and acknowledgement
+
+4. 30-60-90 DAY PLAN
+--------------------
+  * First 30 days: learn the team, tools and processes; complete mandatory training.
+  * Days 31 to 60: take ownership of small deliverables with your buddy's support.
+  * Days 61 to 90: deliver independently and agree your first quarterly OKRs with
+    your manager.
+
+5. PROBATION AND PAYROLL
+------------------------
+The probation period is 6 months. Confirmation is based on a review by your manager and
+HR. During probation the notice period is 30 days; after confirmation it is 60 days.
+
+Salary is credited on the last working day of each month. Provident Fund (PF) is
+deducted at 12% of basic salary, with an equal contribution from Nexora.
+
+6. WHO TO CONTACT
+-----------------
+HR Helpdesk: hr@nexora.example. IT Helpdesk: helpdesk@nexora.example or extension 4444.
+Facilities: facilities@nexora.example.
+
+-- End of HR-004 --

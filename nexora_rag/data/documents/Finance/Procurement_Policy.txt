@@ -1,0 +1,46 @@
+NEXORA TECHNOLOGIES PVT. LTD.
+PROCUREMENT AND VENDOR POLICY
+================================================================================
+Document ID: FIN-003
+Department: Finance
+Version: 2.5
+Effective Date: 2026-03-15
+Owner: Procurement
+Classification: Restricted - FINANCE, ADMIN only
+
+1. QUOTATION REQUIREMENTS
+-------------------------
+Purchase Value             | Requirement                 
+---------------------------+-----------------------------
+Up to Rs. 50,000           | One quotation               
+Rs. 50,001 to Rs. 2,00,000 | Two quotations              
+Above Rs. 2,00,000         | Three competitive quotations
+
+2. APPROVAL AUTHORITY
+---------------------
+Purchase Value                | Approval Needed                          
+------------------------------+------------------------------------------
+Up to Rs. 2,00,000            | Department Head                          
+Rs. 2,00,001 to Rs. 10,00,000 | Finance Controller                       
+Above Rs. 10,00,000           | CFO approval and contract review by Legal
+Above Rs. 1 crore             | Board approval                           
+
+3. VENDOR ONBOARDING
+--------------------
+  * Collect KYC documents, GST registration and a cancelled cheque for bank
+    verification.
+  * IT and software vendors must also pass a security assessment by the Security
+    team.
+  * Vendors must be registered in NexProcure before a Purchase Order (PO) is raised.
+
+4. PURCHASE ORDERS AND PAYMENT
+------------------------------
+No PO, no payment: invoices without a valid PO are not paid. The standard payment term
+is net 45 days from invoice receipt. MSME-registered vendors are paid within 30 days.
+
+5. CONFLICT OF INTEREST
+-----------------------
+Employees must not take part in selecting a vendor where they or a relative has a
+financial interest. Such interests must be declared to Finance and HR.
+
+-- End of FIN-003 --

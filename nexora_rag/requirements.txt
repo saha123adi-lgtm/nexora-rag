@@ -1,0 +1,18 @@
+streamlit>=1.50
+pandas>=2.0
+chromadb>=1.0
+sentence-transformers>=3.0
+pdfplumber>=0.11
+python-docx>=1.1
+scikit-learn>=1.4
+requests>=2.31
+
+# Optional, only for the paid "Claude (Anthropic API)" choice in the sidebar:
+#   pip install anthropic
+
+# Streamlit Community Cloud runs Linux, where plain `torch` from PyPI drags in ~3 GB of GPU libraries.
+# If the cloud build runs out of disk or memory, remove the # at the start of the next line and redeploy:
+# --extra-index-url https://download.pytorch.org/whl/cpu
+
+# Tested with Python 3.13, streamlit 1.65, chromadb 1.5.9, sentence-transformers 6.1.0.
+# Python 3.11 or 3.12 is the safest choice on your own computer.

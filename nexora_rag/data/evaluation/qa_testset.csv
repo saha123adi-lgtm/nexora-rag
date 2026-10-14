@@ -1,0 +1,90 @@
+qid,question,expected_answer,source_doc_ids,category,asking_role,expected_behavior,evidence_snippet
+Q001,How many days of annual leave do I get each year?,"24 days per year, accruing at 2 days per month.",HR-001,factual,employee,answer,24 days per year
+Q002,How many sick leave days are there per year?,12 days per year.,HR-001,factual,employee,answer,12 days per year
+Q003,Do I need a medical certificate for sick leave?,Only when the sick leave is for more than 2 consecutive days.,HR-001,factual,employee,answer,more than 2 consecutive days
+Q004,How many unused annual leave days can I carry forward?,A maximum of 10 days; the balance lapses on 31 March.,HR-001,factual,employee,answer,maximum of 10 unused annual leave days
+Q005,How long is maternity leave?,26 weeks for the first two children (12 weeks for a third child).,HR-001,factual,employee,answer,26 weeks
+Q006,What is the paternity leave entitlement?,"15 working days, to be taken within 6 months of the child's birth.",HR-001,factual,employee,answer,15 working days
+Q007,How much notice do I need to give for leave longer than 2 days?,At least 3 working days in advance.,HR-001,factual,employee,answer,at least 3 working days in advance
+Q008,How many paid holidays are there in a year?,12 company holidays plus 2 optional holidays chosen from a list of 6.,HR-001,paraphrase,employee,answer,12 company holidays
+Q009,How many days of leave can I cash out when I resign?,"Up to 15 days of accumulated annual leave, calculated as basic salary divided by 30 per day.",HR-001,paraphrase,employee,answer,up to 15 days of accumulated annual leave
+Q010,I have 14 unused annual leave days on 31 March. How many carry over?,10 days carry forward and the remaining 4 days lapse.,HR-001,multi_hop,employee,answer,maximum of 10 unused annual leave days
+Q011,Which days am I expected in the office?,"Tuesday, Wednesday and Thursday.",HR-003,factual,employee,answer,"Tuesday, Wednesday and Thursday"
+Q012,What is the monthly work-from-home allowance?,"Rs. 1,500 per month for hybrid employees.",HR-003,factual,employee,answer,"Rs. 1,500 per month"
+Q013,How much internet reimbursement can I claim?,"Up to Rs. 1,000 per month against the broadband bill.",HR-003,factual,employee,answer,"Up to Rs. 1,000 per month"
+Q014,How many work-from-anywhere days are allowed in India?,Up to 20 days per calendar year with manager approval.,HR-003,factual,employee,answer,up to 20 days per calendar year
+Q015,What are the core working hours?,11:00 to 16:00 IST.,HR-003,factual,employee,answer,11:00 to 16:00 IST
+Q016,I am an L4 working from home. What monthly payments can I get for working from home?,"A Rs. 1,500 home-office allowance plus up to Rs. 1,000 internet reimbursement with bills.",HR-003,multi_hop,employee,answer,"Rs. 1,500 per month"
+Q017,How often are performance reviews held?,Twice a year: mid-year review in October and annual review in April.,HR-005,factual,employee,answer,reviewed twice a year
+Q018,What bonus payout does a rating of 4 get?,120% of the target bonus.,HR-005,factual,employee,answer,120% of target bonus
+Q019,What do I need to be eligible for promotion?,At least 18 months in the current level and a rating of 4 or above in two consecutive review cycles.,HR-005,factual,employee,answer,at least 18 months in the current level
+Q020,How long does a Performance Improvement Plan last?,"60 days, with a check-in every 2 weeks.",HR-005,factual,employee,answer,60-day Performance Improvement Plan
+Q021,What is the health insurance cover for employees?,"Rs. 5,00,000 sum insured covering the employee, spouse and up to 2 children.",HR-008,factual,employee,answer,"Rs. 5,00,000"
+Q022,What is my annual learning budget?,"Rs. 40,000 per year.",HR-008,factual,employee,answer,"Rs. 40,000 per year"
+Q023,How much can I claim for a gym membership?,"Up to Rs. 12,000 per year.",HR-008,factual,employee,answer,"Rs. 12,000 per year"
+Q024,What referral bonus do I get for referring an L4 hire?,"Rs. 75,000, paid after the referred employee completes 90 days.",HR-008,factual,employee,answer,"Rs. 75,000"
+Q025,What mental health support does Nexora offer?,6 free counselling sessions per year through the MindWell Employee Assistance Programme.,HR-008,paraphrase,employee,answer,6 free counselling sessions per year
+Q026,What is my notice period after confirmation?,60 days (30 days during probation).,HR-004,factual,employee,answer,after confirmation it is 60 days
+Q027,I joined last week. Which courses must I finish and by when?,"Security Awareness, POSH Awareness and Code of Conduct training on NexLearn within 30 days of joining.",HR-004;SEC-001,multi_hop,employee,answer,within 30 days of joining
+Q028,Where do I send a sexual harassment complaint?,To the Internal Committee at ic@nexora.example; the inquiry is completed within 90 days.,HR-002,factual,employee,answer,ic@nexora.example
+Q029,What is the ethics hotline number?,"1800-555-0199 (toll-free, 24x7, anonymous reporting possible).",HR-002,factual,employee,answer,1800-555-0199
+Q030,Above what value must I declare a gift?,"Gifts valued at more than Rs. 3,000 must be declared.",HR-002,factual,employee,answer,"more than Rs. 3,000"
+Q031,How do I contact the IT helpdesk?,"Email helpdesk@nexora.example, call extension 4444, use Slack #it-helpdesk or the portal helpdesk.nexora.example.",IT-001,factual,employee,answer,extension 4444
+Q032,How do I reset my password?,Go to pwreset.nexora.example and verify with MFA using the NexAuth app; no ticket is needed.,IT-001,factual,employee,answer,pwreset.nexora.example
+Q033,After how many wrong attempts is my account locked?,After 5 failed login attempts; it unlocks automatically after 30 minutes.,IT-001,factual,employee,answer,5 failed login attempts
+Q034,What do I do if my account gets locked?,"Wait 30 minutes for the automatic unlock; if you lost your MFA device, call the helpdesk with identity verification.",IT-001,paraphrase,employee,answer,unlocks automatically after 30 minutes
+Q035,What are the response and resolution times for a P1 IT issue?,First response within 1 hour and resolution within 4 hours.,IT-001,factual,employee,answer,1 hour | 4 hours
+Q036,How often are laptops replaced?,Every 3 years (36 months).,IT-002,factual,employee,answer,every 3 years (36 months)
+Q037,My laptop was stolen. What should I do?,Report it to the IT Helpdesk and Security team within 24 hours and file a police complaint.,IT-002,multi_hop,employee,answer,File a police complaint for theft
+Q038,Can I plug a USB pen drive into my laptop?,USB mass storage devices are blocked by default; exceptions need Security team approval.,IT-002,paraphrase,employee,answer,USB mass storage devices are blocked by default
+Q039,Which VPN client and server do I use?,GlobalConnect with server address vpn.nexora.example.,IT-003,factual,employee,answer,vpn.nexora.example
+Q040,What does VPN error 806 mean?,Port 443 is blocked by your network; try another network such as a hotspot.,IT-003,factual,employee,answer,Port 443 is blocked by your network
+Q041,How do I get software that is not in the approved catalog?,"Raise a Software Request: manager approval, IT review (2 business days), Security review (up to 5 business days), then installation within 3 business days.",IT-004,multi_hop,employee,answer,up to 5 business days
+Q042,When does software need Finance approval?,"When the annual cost is more than Rs. 50,000 (Department Head and Finance approval).",IT-004,factual,employee,answer,"more than Rs. 50,000"
+Q043,What are the password requirements?,"At least 14 characters, changed every 180 days, no reuse of the last 10, and MFA is mandatory.",SEC-001,factual,employee,answer,at least 14 characters long
+Q044,Can I use ChatGPT to summarise a customer contract?,No. Public AI tools may be used only with Public data; customer contracts are Confidential.,SEC-001,multi_hop,employee,answer,"must not paste Internal, Confidential or Restricted data"
+Q045,How do I report a phishing email?,Use the Report Phish button or forward it to phishing@nexora.example.,SEC-001,factual,employee,answer,phishing@nexora.example
+Q046,What encryption standards are required?,AES-256 for data at rest and TLS 1.2 or higher in transit.,SEC-001,factual,employee,answer,AES-256
+Q047,How long do we have to fulfil a customer data deletion request?,Within 30 days.,SEC-003,factual,employee,answer,must be completed within 30 days
+Q048,How long are financial records kept?,8 years.,SEC-003,factual,employee,answer,Financial and tax records | 8 years
+Q049,Who is the Data Protection Officer?,"Meera Iyer, reachable at dpo@nexora.example.",SEC-003,factual,employee,answer,Meera Iyer
+Q050,How long is CCTV footage retained?,30 days.,SEC-003,factual,employee,answer,CCTV footage | 30 days
+Q051,What is the deadline for submitting an expense claim?,"Within 30 days of the expense, in NexExpense.",FIN-001,factual,employee,answer,within 30 days of the expense
+Q052,Do I need a receipt for every expense?,A receipt is required for any expense above Rs. 500.,FIN-001,paraphrase,employee,answer,above Rs. 500
+Q053,"Who approves an expense claim of Rs. 30,000?",A Director (Department Head).,FIN-001,factual,employee,answer,"Rs. 10,001 to Rs. 50,000 | Director (Department Head)"
+Q054,What is the daily meal limit on domestic travel to a tier-1 city?,"Rs. 1,200 per day.",FIN-001,factual,employee,answer,"Rs. 1,200 per day"
+Q055,When can I claim cab fare for office travel?,Only when working after 9:00 PM or before 7:00 AM.,FIN-001,factual,employee,answer,after 9:00 PM or before 7:00 AM
+Q056,What happens if I submit a claim after 40 days?,It is rejected unless the CFO approves an exception.,FIN-001,paraphrase,employee,answer,unless the CFO approves an exception
+Q057,Who can fly business class?,"Directors and above, on flights longer than 6 hours.",FIN-002,factual,employee,answer,Business class is allowed only for Directors and above on flights longer than 6 hours
+Q058,I am an L3 employee travelling to Pune. What is my hotel limit per night?,"Rs. 7,500 per night (Pune is a tier-1 city and L3 falls in the L1 to L4 group).",FIN-002,multi_hop,employee,answer,"Rs. 7,500 | Rs. 10,000"
+Q059,How early should I book domestic travel?,At least 7 days in advance (14 days for international).,FIN-002,factual,employee,answer,at least 7 days in advance
+Q060,What is the reimbursement rate for using my own car?,Rs. 12 per km.,FIN-002,factual,employee,answer,Rs. 12 per km
+Q061,What is the API rate limit on the NexSupport Professional plan?,300 requests per minute.,PRD-001,factual,employee,answer,300 requests/min
+Q062,What uptime SLA does NexSupport Enterprise have?,99.95%.,PRD-001,factual,employee,answer,99.95%
+Q063,A customer on NexSupport Starter wants SSO. What should I tell them?,"SSO (SAML 2.0) is available only on the Enterprise plan, so they would need to upgrade.",PRD-001,multi_hop,employee,answer,SSO (SAML 2.0) | No | No | Yes
+Q064,How many times are failed webhooks retried?,5 times with exponential backoff.,PRD-001,factual,employee,answer,retried 5 times with exponential backoff
+Q065,Where can NexSupport customer data be stored?,India (Mumbai) or EU (Frankfurt).,PRD-001,factual,employee,answer,India (Mumbai) region or the EU (Frankfurt) region
+Q066,How often does NexAnalytics refresh data on the Professional plan?,Every 15 minutes.,PRD-002,factual,employee,answer,Professional | Every 15 minutes
+Q067,Which databases can NexAnalytics connect to?,"PostgreSQL, MySQL, BigQuery and Snowflake.",PRD-002,factual,employee,answer,"PostgreSQL, MySQL, BigQuery and Snowflake"
+Q068,Which forecasting models does NexAnalytics support?,ARIMA and Prophet.,PRD-002,factual,employee,answer,ARIMA and Prophet
+Q069,What is the annual CTC band for level L5?,ACCESS DENIED. The compensation bands document is restricted to HR; the assistant should not reveal it to an employee.,HR-006,access_denied,employee,refuse_access,L5 | Manager | 30 to 45
+Q070,What is the annual CTC band for level L5?,Rs. 30 to 45 lakh per year.,HR-006,access_allowed,hr,answer,L5 | Manager | 30 to 45
+Q071,What is the CTC band for level L4?,"ACCESS DENIED. Compensation bands are visible only to HR, even for managers.",HR-006,access_denied,manager,refuse_access,L4 | Lead | 20 to 32
+Q072,How does ESOP vesting work?,ACCESS DENIED. ESOP details are in the restricted compensation document.,HR-006,access_denied,employee,refuse_access,vest over 4 years with a 1-year cliff
+Q073,How does ESOP vesting work?,"4-year vesting with a 1-year cliff: 25% after year one, the rest in equal monthly instalments over 36 months.",HR-006,access_allowed,hr,answer,vest over 4 years with a 1-year cliff
+Q074,What are the stages of disciplinary action?,ACCESS DENIED. The disciplinary procedure is restricted to HR and managers.,HR-007,access_denied,employee,refuse_access,Final written warning
+Q075,What are the stages of disciplinary action?,"Verbal warning, written warning, final written warning, then termination.",HR-007,access_allowed,manager,answer,Final written warning
+Q076,Above what purchase value is CFO approval needed?,ACCESS DENIED. The procurement policy is restricted to Finance.,FIN-003,access_denied,employee,refuse_access,CFO approval and contract review by Legal
+Q077,Above what purchase value is CFO approval needed?,"Above Rs. 10,00,000, along with a contract review by Legal.",FIN-003,access_allowed,finance,answer,CFO approval and contract review by Legal
+Q078,How much discount can a sales representative give on their own?,ACCESS DENIED. The pricing and discount policy is restricted to Sales and managers.,SAL-001,access_denied,employee,refuse_access,Up to 10% | Sales Representative
+Q079,How much discount can a sales representative give on their own?,Up to 10% of list price.,SAL-001,access_allowed,sales,answer,Up to 10% | Sales Representative
+Q080,Who must approve a 35% discount?,Both the VP Sales and the CFO.,SAL-001,access_allowed,sales,answer,"VP Sales and CFO, both required"
+Q081,Within how many hours must CERT-In be notified of a cyber incident?,ACCESS DENIED. The Incident Response Plan is restricted to the Security team.,SEC-002,access_denied,employee,refuse_access,within 6 hours of noticing
+Q082,Within how many hours must CERT-In be notified of a cyber incident?,Within 6 hours of noticing a reportable incident.,SEC-002,access_allowed,security,answer,within 6 hours of noticing
+Q083,What is Nexora's current share price?,NOT IN DOCUMENTS. The assistant should say it does not have this information.,,unanswerable,employee,say_unknown,
+Q084,How many days of sabbatical leave can I take?,NOT IN DOCUMENTS. No sabbatical policy exists in the knowledge base.,,unanswerable,employee,say_unknown,
+Q085,What is the dress code at the office?,NOT IN DOCUMENTS. No dress code policy exists in the knowledge base.,,unanswerable,employee,say_unknown,
+Q086,Who won the last cricket world cup?,OUT OF SCOPE. The assistant should decline or say it can only answer from company documents.,,unanswerable,employee,say_unknown,
+Q087,What is the CEO's annual salary?,NOT IN DOCUMENTS. Even HR's band table stops at VP level.,,unanswerable,hr,say_unknown,
+Q088,Can I bring my dog to the office?,NOT IN DOCUMENTS. No pet policy exists in the knowledge base.,,unanswerable,employee,say_unknown,
+Q089,Does Nexora offer a four-day work week?,NOT IN DOCUMENTS. Only the hybrid 3-day office model is documented.,,unanswerable,employee,say_unknown,

@@ -1,0 +1,22 @@
+doc_id,filename,title,department,format,access_level,allowed_roles,owner,version,effective_date,approx_words,path
+HR-001,HR_Leave_Policy.pdf,Leave Policy,HR,pdf,public,all,HR Operations,3.0,2026-04-01,432,documents/HR/HR_Leave_Policy.pdf
+HR-002,HR_Code_of_Conduct.docx,Code of Conduct,HR,docx,public,all,Ethics and Compliance,2.4,2026-01-15,278,documents/HR/HR_Code_of_Conduct.docx
+HR-003,HR_Remote_Work_Policy.md,Hybrid and Remote Work Policy,HR,md,public,all,HR Business Partners,2.0,2026-02-01,264,documents/HR/HR_Remote_Work_Policy.md
+HR-004,HR_Onboarding_Guide.txt,New Employee Onboarding Guide,HR,txt,public,all,HR Operations,1.8,2026-03-10,258,documents/HR/HR_Onboarding_Guide.txt
+HR-005,HR_Performance_Review.pdf,Performance Review Process,HR,pdf,public,all,Talent Management,2.2,2026-03-20,273,documents/HR/HR_Performance_Review.pdf
+HR-006,HR_Compensation_Bands.docx,Compensation Bands and Equity,HR,docx,restricted,hr;admin,Total Rewards,1.5,2026-04-01,187,documents/HR/HR_Compensation_Bands.docx
+HR-007,HR_Disciplinary_Procedure.pdf,Disciplinary Procedure,HR,pdf,restricted,hr;manager;admin,Employee Relations,2.0,2026-01-20,206,documents/HR/HR_Disciplinary_Procedure.pdf
+HR-008,HR_Employee_Benefits.docx,Employee Benefits Guide,HR,docx,public,all,Total Rewards,3.1,2026-04-01,261,documents/HR/HR_Employee_Benefits.docx
+IT-001,IT_Helpdesk_FAQ.md,IT Helpdesk FAQ,IT,md,public,all,IT Service Desk,4.2,2026-06-01,271,documents/IT/IT_Helpdesk_FAQ.md
+IT-002,IT_Laptop_and_Device_Policy.pdf,Laptop and Device Policy,IT,pdf,public,all,IT Asset Management,2.3,2026-02-15,263,documents/IT/IT_Laptop_and_Device_Policy.pdf
+IT-003,IT_VPN_Setup_Guide.txt,VPN Setup Guide,IT,txt,public,all,Network Engineering,3.0,2026-05-05,201,documents/IT/IT_VPN_Setup_Guide.txt
+IT-004,IT_Software_Request_Process.docx,Software Request and Approval Process,IT,docx,public,all,IT Governance,1.6,2026-03-01,196,documents/IT/IT_Software_Request_Process.docx
+SEC-001,Information_Security_Policy.pdf,Information Security Policy,Security,pdf,public,all,Office of the CISO,5.0,2026-01-10,287,documents/Security/Information_Security_Policy.pdf
+SEC-002,Incident_Response_Plan.docx,Security Incident Response Plan,Security,docx,restricted,security;admin,Security Operations Center,3.2,2026-05-20,223,documents/Security/Incident_Response_Plan.docx
+SEC-003,Data_Privacy_and_Retention_Policy.pdf,Data Privacy and Retention Policy,Security,pdf,public,all,Data Protection Office,2.1,2026-02-28,174,documents/Security/Data_Privacy_and_Retention_Policy.pdf
+FIN-001,Expense_Reimbursement_Policy.pdf,Expense Reimbursement Policy,Finance,pdf,public,all,Finance Operations,4.0,2026-04-01,212,documents/Finance/Expense_Reimbursement_Policy.pdf
+FIN-002,Travel_Policy.docx,Business Travel Policy,Finance,docx,public,all,Finance Operations,3.3,2026-04-01,206,documents/Finance/Travel_Policy.docx
+FIN-003,Procurement_Policy.txt,Procurement and Vendor Policy,Finance,txt,restricted,finance;admin,Procurement,2.5,2026-03-15,182,documents/Finance/Procurement_Policy.txt
+PRD-001,NexSupport_Product_Manual.md,NexSupport Product Manual,Product,md,public,all,Product Management - NexSupport,4.7,2026-09-15,255,documents/Product/NexSupport_Product_Manual.md
+PRD-002,NexAnalytics_FAQ.pdf,NexAnalytics Product FAQ,Product,pdf,public,all,Product Management - NexAnalytics,3.2,2026-08-10,172,documents/Product/NexAnalytics_FAQ.pdf
+SAL-001,Pricing_and_Discount_Policy.docx,Pricing and Discount Approval Policy,Sales,docx,restricted,sales;manager;admin,Sales Operations,2.2,2026-07-01,152,documents/Sales/Pricing_and_Discount_Policy.docx
